@@ -58,7 +58,7 @@ function Navbar() {
 
             <li>
               <Link
-                to="/play-game"
+                to="/play"
                 className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >
