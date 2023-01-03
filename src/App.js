@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./components/pages/Home";
 import Monsters from "./components/pages/Monsters";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Play from "./components/pages/Play";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/home" element={<Home />} />
           <Route path="/monsters" element={<Monsters />} />
+          <Route path="/play" element={<Play />} />
         </Routes>
       </Router>
     </>
