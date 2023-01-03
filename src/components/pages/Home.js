@@ -6,7 +6,7 @@ import Footer from "../Footer";
 
 function Home() {
   return (
-    <div>
+    <>
       <Container>
         <HeroSection />
         <div className="ratio ratio-16x9">
@@ -18,7 +18,7 @@ function Home() {
         </div>
         <Footer />
       </Container>
-    </div>
+    </>
   );
 }
 
