@@ -2,6 +2,7 @@ import "../../App.css";
 import HeroSection from "../HeroSection";
 import React from "react";
 import { Container } from "react-bootstrap";
+import Footer from "../Footer";
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
             allowfullscreen
           ></iframe>
         </div>
+        <Footer />
       </Container>
     </div>
   );
