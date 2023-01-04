@@ -1,7 +1,7 @@
 
 
 .hero-container {
- background: url('background.jpg') center center/cover no-repeat; 
+ /*background: url('/poppy.jpg') center center/cover no-repeat; */
   height: 75vh;
   width: 100%;
   display: flex;
