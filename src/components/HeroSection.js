@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "./Button";
 import "./HeroSection.css";
 import "../App.css";
+import background from "./background.jpg";
 
 function HeroSection() {
   return (
